@@ -296,3 +296,63 @@ Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (main)
 $ ls
  README.md   main_folder/        text_branch_2.txt   text_branch_4.txt
 'câu lệnh'   text_branch_1.txt   text_branch_3.txt
+câu 10
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (main)
+$ git branch --delete branch_2
+Deleted branch branch_2 (was 8936f58).
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (main)
+$ git branch --delete branch_3
+Deleted branch branch_3 (was 63c67d7).
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (main)
+$ git branch --delete branch_4
+error: branch 'branch_4' not found
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (main)
+$ git push origin --delete branch_2
+To https://github.com/pgiang6426/24174600124_Phan_Huong_Giang_bai_tap.git
+ - [deleted]         branch_2
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (main)
+$ git push origin --delete branch_3
+To https://github.com/pgiang6426/24174600124_Phan_Huong_Giang_bai_tap.git
+ - [deleted]         branch_3
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (main)
+$ git push origin --delete branch_4
+To https://github.com/pgiang6426/24174600124_Phan_Huong_Giang_bai_tap.git
+ - [deleted]         branch_4
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_1)
+$ git pull origin main
+From https://github.com/pgiang6426/24174600124_Phan_Huong_Giang_bai_tap
+ * branch            main       -> FETCH_HEAD
+Updating d7b0fad..5b45f2f
+Fast-forward
+ "c\303\242u l\341\273\207nh" | 298 +++++++++++++++++++++++++++++++++++++++++++
+ main_folder/main_txt_1.txt   |   0
+ main_folder/main_txt_2.txt   |   0
+ main_folder/main_txt_3.txt   |   0
+ text_branch_1.txt            |   8 ++
+ text_branch_2.txt            |   1 +
+ text_branch_3.txt            |   1 +
+ text_branch_4.txt            |   1 +
+ 8 files changed, 309 insertions(+)
+ create mode 100644 "c\303\242u l\341\273\207nh"
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_1)
+$ git push origin branch_1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/pgiang6426/24174600124_Phan_Huong_Giang_bai_tap.git
+   437150b..5b45f2f  branch_1 -> branch_1
+
