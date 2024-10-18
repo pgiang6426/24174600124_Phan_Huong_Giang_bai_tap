@@ -226,3 +226,44 @@ Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 To https://github.com/pgiang6426/24174600124_Phan_Huong_Giang_bai_tap.git
    7417b5e..9dee284  main -> main
 câu 8
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap/main_folder (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap/main_folder (branch_1)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap/main_folder (branch_5)
+$ cd ..
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_5)
+$ git add text_branch_1.txt
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_5)
+$ git commit -m "Chỉnh sửa nội dung file text_branch_1.txt trên nhánh branch_5"
+[branch_5 8505fc0] Chỉnh sửa nội dung file text_branch_1.txt trên nhánh branch_5
+ 1 file changed, 8 insertions(+)
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_5)
+$ git push origin branch_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 770 bytes | 154.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/pgiang6426/24174600124_Phan_Huong_Giang_bai_tap/pull/new/branch_5
+remote:
+To https://github.com/pgiang6426/24174600124_Phan_Huong_Giang_bai_tap.git
+ * [new branch]      branch_5 -> branch_5
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (main)
+$ git branch -D branch_5
+Deleted branch branch_5 (was 8505fc0).
