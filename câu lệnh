@@ -267,3 +267,32 @@ Your branch is up to date with 'origin/main'.
 Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (main)
 $ git branch -D branch_5
 Deleted branch branch_5 (was 8505fc0).
+câu9
+thực hiện trên github
+bước kiểm tra:
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (main)
+$ git pull origin main
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 9 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (9/9), 4.82 KiB | 154.00 KiB/s, done.
+From https://github.com/pgiang6426/24174600124_Phan_Huong_Giang_bai_tap
+ * branch            main       -> FETCH_HEAD
+   eb22a5b..0b8e6bf  main       -> origin/main
+Updating eb22a5b..0b8e6bf
+Fast-forward
+ text_branch_1.txt | 9 +++++++++
+ text_branch_2.txt | 1 +
+ text_branch_3.txt | 1 +
+ text_branch_4.txt | 1 +
+ 4 files changed, 12 insertions(+)
+ create mode 100644 text_branch_1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (main)
+$ ls
+ README.md   main_folder/        text_branch_2.txt   text_branch_4.txt
+'câu lệnh'   text_branch_1.txt   text_branch_3.txt
