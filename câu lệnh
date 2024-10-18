@@ -1,0 +1,228 @@
+câu 1
+Desktop@DESKTOP-45NJ86D MINGW64 /c
+$ git clone https://github.com/pgiang6426/24174600124_Phan_Huong_Giang_bai_tap.git
+Cloning into '24174600124_Phan_Huong_Giang_bai_tap'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+câu 2
+Desktop@DESKTOP-45NJ86D MINGW64 /c
+$ cd 24174600124_Phan_Huong_Giang_bai_tap
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (main)
+$ git add .
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (main)
+$ git commit -m "Sua doi tep readme"
+[main 7417b5e] Sua doi tep readme
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 639 bytes | 319.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/pgiang6426/24174600124_Phan_Huong_Giang_bai_tap.git
+   60728fb..7417b5e  main -> main
+câu 3
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (main)
+$ git checkout -b branch_1
+Switched to a new branch 'branch_1'
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_1)
+$ git add text_branch_1.txt
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_1)
+$ git commit -m "Tạo tệp text_branch_1.txt trên nhánh branch_1"
+[branch_1 d7b0fad] Tạo tệp text_branch_1.txt trên nhánh branch_1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_1)
+$ git push origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 389 bytes | 389.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/pgiang6426/24174600124_Phan_Huong_Giang_bai_tap/pull/new/branch_1
+remote:
+To https://github.com/pgiang6426/24174600124_Phan_Huong_Giang_bai_tap.git
+ * [new branch]      branch_1 -> branch_1
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_1)
+$ git checkout -b branch_2
+Switched to a new branch 'branch_2'
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_2)
+$ git add text_branch_2.txt
+warning: in the working copy of 'text_branch_2.txt', LF will be replaced by CRLF the next time Git touches it
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_2)
+$ git commit -m "Tạo tệp text_branch_2 trên nhánh branch_2"
+[branch_2 8936f58] Tạo tệp text_branch_2 trên nhánh branch_2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_2)
+$ git push origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 408 bytes | 408.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/pgiang6426/24174600124_Phan_Huong_Giang_bai_tap/pull/new/branch_2
+remote:
+To https://github.com/pgiang6426/24174600124_Phan_Huong_Giang_bai_tap.git
+ * [new branch]      branch_2 -> branch_2
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_2)
+$ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_3)
+$ git add text_branch_3.txt
+warning: in the working copy of 'text_branch_3.txt', LF will be replaced by CRLF the next time Git touches it
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_3)
+$ git commit -m "Tạo tệp text_branch_3.txt trên nhánh branch_3"
+[branch_3 63c67d7] Tạo tệp text_branch_3.txt trên nhánh branch_3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_3)
+$ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 385 bytes | 385.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/pgiang6426/24174600124_Phan_Huong_Giang_bai_tap/pull/new/branch_3
+remote:
+To https://github.com/pgiang6426/24174600124_Phan_Huong_Giang_bai_tap.git
+ * [new branch]      branch_3 -> branch_3
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_3)
+$ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_4)
+$ git add text_branch_4.txt
+warning: in the working copy of 'text_branch_4.txt', LF will be replaced by CRLF the next time Git touches it
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_4)
+$ git commit -m "Tạo tệp text_branch_4.txt trên nhánh branch_4"
+[branch_4 67b9af6] Tạo tệp text_branch_4.txt trên nhánh branch_4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_4)
+$ git push origin branch_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 378 bytes | 378.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/pgiang6426/24174600124_Phan_Huong_Giang_bai_tap/pull/new/branch_4
+remote:
+To https://github.com/pgiang6426/24174600124_Phan_Huong_Giang_bai_tap.git
+ * [new branch]      branch_4 -> branch_4
+câu 4
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (main)
+$ git branch -D branch_4
+Deleted branch branch_4 (was 67b9af6).
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (main)
+$ git branch --list
+  branch_1
+  branch_2
+  branch_3
+* main
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (main)
+$ git branch -r
+  origin/HEAD -> origin/main
+  origin/branch_1
+  origin/branch_2
+  origin/branch_3
+  origin/branch_4
+  origin/main
+
+câu 5
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (main)
+$ git pull
+Already up to date.
+câu 7
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (main)
+$ mkdir main_folder
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap (main)
+$ cd main_folder
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap/main_folder (main)
+$ touch main_txt_3.txt
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap/main_folder (main)
+$ touch main_txt_1.txt
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap/main_folder (main)
+$ touch main_txt_2.txt
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap/main_folder (main)
+$ git add .
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap/main_folder (main)
+$ git commit -m "Tạo thư mục main_folder và các file main_txt_1.txt, main_txt_2.txt, main_txt_3.txt"
+[main 9dee284] Tạo thư mục main_folder và các file main_txt_1.txt, main_txt_2.txt, main_txt_3.txt
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+Desktop@DESKTOP-45NJ86D MINGW64 /c/24174600124_Phan_Huong_Giang_bai_tap/main_folder (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 407 bytes | 407.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/pgiang6426/24174600124_Phan_Huong_Giang_bai_tap.git
+   7417b5e..9dee284  main -> main
+câu 8
